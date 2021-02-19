@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A03253A625D9E2C8007AA0EC /* TLGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03253A525D9E2C8007AA0EC /* TLGoal.swift */; };
+		A03253A725D9E2C8007AA0EC /* TLGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03253A525D9E2C8007AA0EC /* TLGoal.swift */; };
+		A03253AB25D9E2EB007AA0EC /* TLGoalRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03253AA25D9E2EB007AA0EC /* TLGoalRecord.swift */; };
+		A03253AC25D9E2EB007AA0EC /* TLGoalRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03253AA25D9E2EB007AA0EC /* TLGoalRecord.swift */; };
+		A04A0E7225DF5F030022C563 /* Persistence+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A0E7125DF5F030022C563 /* Persistence+Preview.swift */; };
+		A04A0E7325DF5F030022C563 /* Persistence+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A0E7125DF5F030022C563 /* Persistence+Preview.swift */; };
 		A0CF463A25D8DBC7007D4FC2 /* Daily_Goals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0CF462425D8DBC5007D4FC2 /* Daily_Goals.xcdatamodeld */; };
 		A0CF463B25D8DBC7007D4FC2 /* Daily_Goals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0CF462425D8DBC5007D4FC2 /* Daily_Goals.xcdatamodeld */; };
 		A0CF463C25D8DBC7007D4FC2 /* Daily_GoalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF462625D8DBC5007D4FC2 /* Daily_GoalsApp.swift */; };
@@ -20,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A03253A525D9E2C8007AA0EC /* TLGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLGoal.swift; sourceTree = "<group>"; };
+		A03253AA25D9E2EB007AA0EC /* TLGoalRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLGoalRecord.swift; sourceTree = "<group>"; };
+		A04A0E7125DF5F030022C563 /* Persistence+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persistence+Preview.swift"; sourceTree = "<group>"; };
 		A0CF462525D8DBC5007D4FC2 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		A0CF462625D8DBC5007D4FC2 /* Daily_GoalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_GoalsApp.swift; sourceTree = "<group>"; };
 		A0CF462725D8DBC5007D4FC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +75,9 @@
 				A0CF462625D8DBC5007D4FC2 /* Daily_GoalsApp.swift */,
 				A0CF462725D8DBC5007D4FC2 /* ContentView.swift */,
 				A0CF462825D8DBC5007D4FC2 /* Persistence.swift */,
+				A04A0E7125DF5F030022C563 /* Persistence+Preview.swift */,
+				A03253A525D9E2C8007AA0EC /* TLGoal.swift */,
+				A03253AA25D9E2EB007AA0EC /* TLGoalRecord.swift */,
 				A0CF462925D8DBC6007D4FC2 /* Assets.xcassets */,
 				A0CF462425D8DBC5007D4FC2 /* Daily_Goals.xcdatamodeld */,
 			);
@@ -196,7 +208,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0CF463C25D8DBC7007D4FC2 /* Daily_GoalsApp.swift in Sources */,
+				A03253AB25D9E2EB007AA0EC /* TLGoalRecord.swift in Sources */,
 				A0CF464025D8DBC7007D4FC2 /* Persistence.swift in Sources */,
+				A03253A625D9E2C8007AA0EC /* TLGoal.swift in Sources */,
+				A04A0E7225DF5F030022C563 /* Persistence+Preview.swift in Sources */,
 				A0CF463A25D8DBC7007D4FC2 /* Daily_Goals.xcdatamodeld in Sources */,
 				A0CF463E25D8DBC7007D4FC2 /* ContentView.swift in Sources */,
 			);
@@ -207,7 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0CF463D25D8DBC7007D4FC2 /* Daily_GoalsApp.swift in Sources */,
+				A03253AC25D9E2EB007AA0EC /* TLGoalRecord.swift in Sources */,
 				A0CF464125D8DBC7007D4FC2 /* Persistence.swift in Sources */,
+				A03253A725D9E2C8007AA0EC /* TLGoal.swift in Sources */,
+				A04A0E7325DF5F030022C563 /* Persistence+Preview.swift in Sources */,
 				A0CF463B25D8DBC7007D4FC2 /* Daily_Goals.xcdatamodeld in Sources */,
 				A0CF463F25D8DBC7007D4FC2 /* ContentView.swift in Sources */,
 			);
