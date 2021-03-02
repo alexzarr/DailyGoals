@@ -13,12 +13,14 @@
 		A03253AC25D9E2EB007AA0EC /* TLGoalRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03253AA25D9E2EB007AA0EC /* TLGoalRecord.swift */; };
 		A04A0E7225DF5F030022C563 /* Persistence+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A0E7125DF5F030022C563 /* Persistence+Preview.swift */; };
 		A04A0E7325DF5F030022C563 /* Persistence+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A0E7125DF5F030022C563 /* Persistence+Preview.swift */; };
+		A08202C725EB521A000D3A55 /* MyGoalsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08202C625EB521A000D3A55 /* MyGoalsItemView.swift */; };
+		A08202C825EB521A000D3A55 /* MyGoalsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08202C625EB521A000D3A55 /* MyGoalsItemView.swift */; };
 		A0CF463A25D8DBC7007D4FC2 /* Daily_Goals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0CF462425D8DBC5007D4FC2 /* Daily_Goals.xcdatamodeld */; };
 		A0CF463B25D8DBC7007D4FC2 /* Daily_Goals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0CF462425D8DBC5007D4FC2 /* Daily_Goals.xcdatamodeld */; };
 		A0CF463C25D8DBC7007D4FC2 /* Daily_GoalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF462625D8DBC5007D4FC2 /* Daily_GoalsApp.swift */; };
 		A0CF463D25D8DBC7007D4FC2 /* Daily_GoalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF462625D8DBC5007D4FC2 /* Daily_GoalsApp.swift */; };
-		A0CF463E25D8DBC7007D4FC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF462725D8DBC5007D4FC2 /* ContentView.swift */; };
-		A0CF463F25D8DBC7007D4FC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF462725D8DBC5007D4FC2 /* ContentView.swift */; };
+		A0CF463E25D8DBC7007D4FC2 /* MyGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF462725D8DBC5007D4FC2 /* MyGoalsView.swift */; };
+		A0CF463F25D8DBC7007D4FC2 /* MyGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF462725D8DBC5007D4FC2 /* MyGoalsView.swift */; };
 		A0CF464025D8DBC7007D4FC2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF462825D8DBC5007D4FC2 /* Persistence.swift */; };
 		A0CF464125D8DBC7007D4FC2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF462825D8DBC5007D4FC2 /* Persistence.swift */; };
 		A0CF464225D8DBC7007D4FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CF462925D8DBC6007D4FC2 /* Assets.xcassets */; };
@@ -29,9 +31,10 @@
 		A03253A525D9E2C8007AA0EC /* TLGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLGoal.swift; sourceTree = "<group>"; };
 		A03253AA25D9E2EB007AA0EC /* TLGoalRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLGoalRecord.swift; sourceTree = "<group>"; };
 		A04A0E7125DF5F030022C563 /* Persistence+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persistence+Preview.swift"; sourceTree = "<group>"; };
+		A08202C625EB521A000D3A55 /* MyGoalsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGoalsItemView.swift; sourceTree = "<group>"; };
 		A0CF462525D8DBC5007D4FC2 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		A0CF462625D8DBC5007D4FC2 /* Daily_GoalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_GoalsApp.swift; sourceTree = "<group>"; };
-		A0CF462725D8DBC5007D4FC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0CF462725D8DBC5007D4FC2 /* MyGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGoalsView.swift; sourceTree = "<group>"; };
 		A0CF462825D8DBC5007D4FC2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A0CF462925D8DBC6007D4FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0CF462E25D8DBC6007D4FC2 /* Daily Goals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Goals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +62,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A08202BB25EB4FFF000D3A55 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				A0CF462825D8DBC5007D4FC2 /* Persistence.swift */,
+				A04A0E7125DF5F030022C563 /* Persistence+Preview.swift */,
+				A03253A525D9E2C8007AA0EC /* TLGoal.swift */,
+				A03253AA25D9E2EB007AA0EC /* TLGoalRecord.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		A08202BE25EB5008000D3A55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A08202BB25EB4FFF000D3A55 /* Persistence */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A08202C325EB512A000D3A55 /* My Goals */ = {
+			isa = PBXGroup;
+			children = (
+				A0CF462725D8DBC5007D4FC2 /* MyGoalsView.swift */,
+				A08202C625EB521A000D3A55 /* MyGoalsItemView.swift */,
+			);
+			path = "My Goals";
+			sourceTree = "<group>";
+		};
 		A0CF461E25D8DBC4007D4FC2 = {
 			isa = PBXGroup;
 			children = (
@@ -73,11 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				A0CF462625D8DBC5007D4FC2 /* Daily_GoalsApp.swift */,
-				A0CF462725D8DBC5007D4FC2 /* ContentView.swift */,
-				A0CF462825D8DBC5007D4FC2 /* Persistence.swift */,
-				A04A0E7125DF5F030022C563 /* Persistence+Preview.swift */,
-				A03253A525D9E2C8007AA0EC /* TLGoal.swift */,
-				A03253AA25D9E2EB007AA0EC /* TLGoalRecord.swift */,
+				A08202BE25EB5008000D3A55 /* Model */,
+				A08202C325EB512A000D3A55 /* My Goals */,
 				A0CF462925D8DBC6007D4FC2 /* Assets.xcassets */,
 				A0CF462425D8DBC5007D4FC2 /* Daily_Goals.xcdatamodeld */,
 			);
@@ -213,7 +241,8 @@
 				A03253A625D9E2C8007AA0EC /* TLGoal.swift in Sources */,
 				A04A0E7225DF5F030022C563 /* Persistence+Preview.swift in Sources */,
 				A0CF463A25D8DBC7007D4FC2 /* Daily_Goals.xcdatamodeld in Sources */,
-				A0CF463E25D8DBC7007D4FC2 /* ContentView.swift in Sources */,
+				A08202C725EB521A000D3A55 /* MyGoalsItemView.swift in Sources */,
+				A0CF463E25D8DBC7007D4FC2 /* MyGoalsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +256,8 @@
 				A03253A725D9E2C8007AA0EC /* TLGoal.swift in Sources */,
 				A04A0E7325DF5F030022C563 /* Persistence+Preview.swift in Sources */,
 				A0CF463B25D8DBC7007D4FC2 /* Daily_Goals.xcdatamodeld in Sources */,
-				A0CF463F25D8DBC7007D4FC2 /* ContentView.swift in Sources */,
+				A08202C825EB521A000D3A55 /* MyGoalsItemView.swift in Sources */,
+				A0CF463F25D8DBC7007D4FC2 /* MyGoalsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

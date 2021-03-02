@@ -15,7 +15,7 @@ extension PersistenceController {
         addGoal(icon: "🧑‍💻", title: "Project", position: 1, isCompletedToday: false, context: context)
         addGoal(icon: "📚", title: "Reading", position: 2, isCompletedToday: false, context: context)
         addGoal(icon: "🍏", title: "Eat Healthy", position: 3, isCompletedToday: true, context: context)
-        addGoal(icon: "🍩", title: "Avoid Sugar", position: 4, isCompletedToday: true, context: context)
+        addGoal(icon: "🍩", title: "Avoid Sugar ddd", position: 4, isCompletedToday: true, context: context)
     }
     static func addGoal(icon: String, title: String, position: Int16, isCompletedToday: Bool, context: NSManagedObjectContext) {
         let goal = TLGoal(context: context)
